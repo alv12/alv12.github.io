@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>  div{
+        width:200px;
+        height: 200px;
+        position:relative;
+        alignment: center;
+        background-color: aqua;
+        -webkit-animation-name: square-to-circle ;
+        -webkit-animation-duration:4s;
+        -webkit-animation-iteration-count: infinite;
+
+        animation-name:square-to-circle ;
+        animation-duration: 4s;
+
+        animation-iteration-count: infinite;}
+        @-webkit-keyframes square-to-circle {
+            0%{border-radius:0 0 0 0; background-color: red;transform:rotate(0deg);}
+            25%{
+                border-radius:50% 0 0 0;background-color: aquamarine;transform:rotate(45deg);}
+            50%{
+                border-radius:50% 50% 0 0;background-color: blueviolet;transform:rotate(90deg);}
+            75%{
+                border-radius:50% 50% 50% 0;background-color: chartreuse;transform:rotate(135deg);}
+            100%{
+                border-radius:50% 50% 50% 50%;background-color: aqua;transform:rotate(180deg);
+            }
+        }
+    </style>
+
+</head>
+<body>
+<div></div>
+
+</body> 
