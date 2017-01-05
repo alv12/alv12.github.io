@@ -1,0 +1,130 @@
+#silk
+{
+    color: white;
+    background-color: #020406;
+    float:left;
+    width:400px;
+   font-size:70px;
+
+}
+#do
+{
+    color: white;
+    background-color:black;
+    width:200px;
+    font-size:20px;
+    float:right;
+}
+#site{
+    color:white;
+    border:groove;
+    border-width: 10px;
+    border-color: black;
+    back-ground:black;
+    padding: 40px;
+    /*margin-left:100px */
+    margin-top: 150px;
+    width:300px;
+    font-size:40px;
+
+}
+#sing{
+    color:white;
+    border:solid;
+    border-color: #020406;
+    font-size:20px;
+   height:200px;
+/* float:right;*/
+    width: 100px;
+    margin:auto;
+
+}
+#call{
+
+    color:white;
+    border:groove;
+    border-width: 10px;
+    border-color: black;
+    back-ground:black;
+    padding: 40px;
+    /*margin-left:100px */
+    margin-top: 50px;
+    width:300px;
+    font-size:40px;
+
+
+}
+#bang {
+    color: white;
+    border: solid;
+    border-color: #020406;
+    font-size: 20px;
+    height: 300px;
+    /* float:right;*/
+    width: 100px;
+    margin:50px;
+
+}
+#leave{
+    text-decoration:white;
+    font-size: 10px;
+}
+#curse{
+    color:white;
+    border:solid;
+    border-color:black;
+    width: 20px;
+
+}
+#beg{
+    font-size: 50px;
+    height: 50px;
+    background-color: #a283d9;
+    color: cornsilk;
+    padding-bottom: 5%;
+}
+#let{
+
+    background-color:black;
+    color:white;
+    width: 100%;
+    height:55px;
+    font-family: "Arial white", "Bradley Hand ITC", serif;
+    font-size: 50px;
+
+
+}
+#frn{
+
+    color: black;
+    font-family: "Arial white", "Bradley Hand ITC", serif;
+    font-size: 50px;
+
+}
+#be{
+
+    color:black;
+    font-family: "Arial white", "Bradley Hand ITC", serif;
+    font-size: 20px;
+
+
+}
+#joy
+{
+    float: right;
+
+    
+margin: inherit;
+
+}
+#life{
+    color: white;
+    font-size: 20px;
+}
+#gel{
+
+    color: black;
+    font-family: "Arial white", "Bradley Hand ITC", serif;
+    font-size: 20px;
+
+}
