@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>signup</title>
+    <style>
+        /* Full-width input fields */
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        /* Set a style for all buttons */
+        button {
+            background-color:deepskyblue;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+            padding: 14px 20px;
+            background-color: #3cd4f4;
+        }
+
+        /* Float cancel and signup buttons and add an equal width */
+        .cancelbtn,.signupbtn {
+            float: left;
+            width: 50%;
+        }
+
+        /* Add padding to container elements */
+        .container {
+            padding: 16px;
+            height: 500px;
+            width:  500px;
+        }
+
+        /* Clear floats */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Change styles for cancel button and signup button on extra small screens */
+        @media screen and (max-width: 300px) {
+            .cancelbtn, .signupbtn {
+                width: 50px;
+            }
+        }
+    </style>
+    <style>    body{
+        background: url("l.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment:fixed;}
+    </style>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwj
+</head>
+<body>
+   <nav class="navbar navbar-inverse navbar-fixed-top " id="my-navbar">
+    <div class="container">
+        <div class="navbar header">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="landing%201.html" class="navbar-brand">Nepamination</font></a>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <a href="" class="btn btn-info navbar-btn navbar-right">Download Now</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="#feedback">Feedback</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#FAQ">FAQ</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="login%20page.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div><!-- Nav bar header-->
+
+    </div><!-- End container-->
+
+    </nav>
+
+
+<h2><font size="7px"><font color="white"> Signup Form</font></font></h2>
+<br><br><br>
+
+<form action="/action_page.php">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">      <label><b><font size="5px"><font color="white">Email</font></font></b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label><b><b><font size="5px"><font color="white">Password</font></font></b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label><b><b><font size="5px"><font color="white">Repeat Password</font></font></b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                <input type="checkbox" checked="checked"> <b><font size="5px"><font color="white">Remember me</font></font>
+                    <p><b><font size="4px"><font color="white">By accepting, you accept the terms and condition</font></font> <a href="#"><b><font size="4px"><font color="white">Terms and privacy</font></font></a>.</p>
+
+                    <div class="clearfix">
+                        <button type="button" class="cancelbtn"><a href="landing%20page.html">Cancel</a></button>
+                        <button type="submit" class="signupbtn" > Sign Up</button>
+                    </div>
+            </div></div>
+        </div>
+
+</form>
+<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7
+
+</body>
+</html>
